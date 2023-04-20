@@ -18,8 +18,8 @@ int main()
 
     ifstream inFile;
     ofstream outFile;
-    inFile.open("/Users/nicosavage/Desktop/C++/NicoleiSavage_1-2/ch3-ex5/ch3-ex5/ch3ex5.txt");
-    outFile.open("/Users/nicosavage/Desktop/C++/NicoleiSavage_1-2/ch3-ex5/ch3-ex5/ch3ex5output.dat");
+    inFile.open("ch3ex5.txt");
+    outFile.open("ch3ex5output.txt");
     outFile << setprecision(2) << showpoint << fixed;
 
     inFile >> lastnameA >> firstnameA >> currentSalaryA >>

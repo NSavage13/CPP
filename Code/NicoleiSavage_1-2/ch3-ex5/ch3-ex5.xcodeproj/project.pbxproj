@@ -26,7 +26,7 @@
 		E142302329EEE11500C2F004 /* ch3-ex5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ch3-ex5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E142302629EEE11500C2F004 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E142302F29EEF9C100C2F004 /* ch3ex5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ch3ex5.txt; sourceTree = "<group>"; };
-		E142303529EF095D00C2F004 /* ch3ex5output.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = ch3ex5output.dat; sourceTree = "<group>"; };
+		E142303529EF095D00C2F004 /* ch3ex5output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ch3ex5output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			children = (
 				E142302629EEE11500C2F004 /* main.cpp */,
 				E142302F29EEF9C100C2F004 /* ch3ex5.txt */,
-				E142303529EF095D00C2F004 /* ch3ex5output.dat */,
+				E142303529EF095D00C2F004 /* ch3ex5output.txt */,
 			);
 			path = "ch3-ex5";
 			sourceTree = "<group>";
