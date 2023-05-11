@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html><head></head><body style="color: rgb(32, 33, 34); font-family: Lato, sans-serif; font-size: 19px;"><h1>Directions</h1>
+<p>This week the assignments are a little complex. You will do two classes and inheritances. You will select two from the first group. These are the classes that you will build. Then in the second section, you will perform the related inheritance exercises, for the classes you built.&nbsp;</p>
+<p>For clarity, if you choose the sandwich class (#3) in the first group, then you will choose the Hoagie (#3) in the second group.</p>
+<h2>Classes</h2>
+<p>Choose and complete two (2) of the following class exercises</p>
+<p>For each of these classes, you will perform the following<br>• &nbsp; &nbsp;Create parameterized and default, constructors.<br>• &nbsp; &nbsp;Create the setters and getters for <strong>each </strong>variable<br>• &nbsp; &nbsp;Create a to_string function<br>• &nbsp; &nbsp;Instantiate a variable of the class in the main<br>• &nbsp; &nbsp;Demonstrate that all methods work<br>• &nbsp; &nbsp;Create an array of the class with instantiated variables</p>
+<ol>
+<li>Create a class that holds a car. Include fields of make, model, year, miles, gallons, and MPG. Create a method that calculates the distance the car can travel on the gas, and a method that determines cost per mile, assuming that gas costs $3.09 per gallon.
+<ul>
+<li>Cost per mile = 3.09 / (mpg * gallons)</li>
+<li>Distance = mpg * gallons</li>
+</ul>
+</li>
+<li>Create a class that holds a patient’s medical records. The class must hold fname, lname, height, weight. Create a method that calculates the BMI (body mass index).</li>
+<li>Create a class called Sandwich. The class will calculate the cost of a sandwich, based on the items you choose. Your class will hold the bread type, meat type, cheese type, vegetables, condiment, and price. Create a method that calculates the price of the sandwich based on the bread type, meat type, and cheese type.
+<ul>
+<li>For clarity, different breads cost a different amount, likewise meats and cheeses each can cost a different amount. Create as many additional constructors as makes sense. Create whatever methods you think are appropriate.</li>
+</ul>
+</li>
+<li>Create a class that holds the information for a monster from a game. Variables should include at least name, damage done, health, and attack type. Include methods that allow the monster to take damage and do damage.</li>
+</ol>
+<h1>Inheritance</h1>
+<p>For each of these classes you will perform the following<br>• &nbsp; &nbsp;Create parameterized and default constructors that reference the parent constructors<br>• &nbsp; &nbsp;Create the setters and getters for each variable in the inherited class<br>• &nbsp; &nbsp;Create a to_string function that <strong>uses </strong>the parent’s to_string method<br>• &nbsp; &nbsp;Instantiate a variable of the class in the main<br>• &nbsp; &nbsp;Demonstrate that all methods work<br>• &nbsp; &nbsp;Create an array of the class with instantiated variables</p>
+<ol>
+<li>Create a class called Hybrid that inherits from car. Add the following variables: batteryCapacity, and batteryChargePercent. Create a method that accepts a parameter that will ‘charge’ the battery based on the number passed in. Create a method that calculates the ‘range’ of the hybrid. For simplicity, assume that the car can go 10 miles for every % charge in the battery.</li>
+<li>Create a class called CardiacPatient that inherits from Patient. The additional class variables are the blood pressure systolic and diastolic numbers. Create a method that determines the patient’s at-risk levels based on the blood pressure (lookup the levels on Google).</li>
+<li>Create a class called Hoagie that inherits from Sandwich. Add two class variables called length in feet and baked. Override the cost calculation method as follows.
+<ul>
+<li>Total price = price*feet. If the hoagie is baked, add $.75 per foot to the price.</li>
+</ul>
+</li>
+<li>Create a class called boss that inherits from Monster. Add a shield and a super attack. Change the setter and constructor for health to add 50% more health and damage to the monster. &nbsp;Override the damage done to the monster to first take the damage from the shield. Only once the shield is depleted, does damage come from the health. Add a second method to allow the boss to ‘attack’ with it’s super attack.</li>
+</ol></body></html>

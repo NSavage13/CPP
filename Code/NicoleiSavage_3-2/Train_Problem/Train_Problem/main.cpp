@@ -4,9 +4,10 @@
 //
 //  Created by Nico Savage on 4/25/23.
 //
-
 #include <iostream>
+#include <iomanip>
 #include <cmath>
+#include <string>
 
 using namespace std;
 
@@ -38,22 +39,24 @@ int main() {
     cin >> maxSpeedPittsburgh;
     cout << "Enter max speed for the Philadelphia train.\n";
     cin >> maxSpeedPhiladelphia;
-    cout << "Enter the acceleration rate for the Pittsburgh train.\n";
+    cout << "Enter the acceleration rate for the Pittsburgh train. EX.(0.12)\n";
     cin >> accelerationPittsburgh;
-    cout << "Enter the acceleration rate for the Philadelphia train.\n";
+    cout << "Enter the acceleration rate for the Philadelphia train. EX.(0.12)\n";
     cin >> accelerationPhiladelphia;
     
+    //This is where I was wrong.
 //    double accPitt = maxSpeedPittsburgh * accelerationPittsburgh;
 //    double accPhil = maxSpeedPhiladelphia * accelerationPhiladelphia;
     
     /*
-     Using a smaller time step (such as time += 0.001) will increase the precision of the simulation, but also increase the time it takes to run the simulation. Using a larger time step (such as time += 0.1) will decrease the precision, but make the simulation run faster.
+     Using a smaller time step (such as time += 0.001) will increase the precision of the simulation, but also increase the time it takes to run the simulation. Using a larger time step (such as time += 0.1) will decrease the precision, but make the simulation run faster. 
      */
     while (distance < distanceBetweenCities) {
         time += 0.001;
-        velocityPittsburgh = min(velocity(accelerationPittsburgh, time), maxSpeedPittsburgh);
-        velocityPhiladelphia = min(velocity(accelerationPhiladelphia, time), maxSpeedPhiladelphia);
+        velocityPittsburgh = velocity(accelerationPittsburgh, time);
+        velocityPhiladelphia = velocity(accelerationPhiladelphia, time);
         distance = howFar(velocityPittsburgh, velocityPhiladelphia, time);
+        
     }
 
     double Crashed = timeTillCrash(distanceBetweenCities, velocityPittsburgh, velocityPhiladelphia);

@@ -64,9 +64,11 @@ int getData(){
         }
     return 0;
 }
+
 // Between $0 and $15,000, the tax rate is 15%.
 //Between $15,001 and $40,000, the tax is $2,250 plus 25% of the taxable income over $15,000.
 //Over $40,000, the tax is $8,460 plus 35% of the taxable income over $40,000.
+
 double taxAmount(){
     if(status == SINGLE){
         stdEx = 4000;
@@ -77,16 +79,16 @@ double taxAmount(){
     }
     double pensionAmount = grossSalary * pensionRate / 100;
     taxableIncome = grossSalary - stdEx - personalEx - pensionAmount;
-    
-    if (grossSalary <= 15000){
+    cout << taxableIncome << "\n";
+    if (taxableIncome <= 15000){
         taxRate = 0.15;
         tax = taxableIncome * taxRate;
-    }else if (grossSalary >= 15001 && grossSalary <= 40000){
+    }else if (taxableIncome >= 15001 && taxableIncome <= 40000){
         taxRate = 0.25;
-        tax = ((taxableIncome - 15000) + 2250) * taxRate;
-    }else if (grossSalary > 40000){
+        tax = ((taxableIncome - 15000) * taxRate) + 2250;
+    }else if (taxableIncome > 40000){
         taxRate = 0.35;
-        tax = ((taxableIncome - 40000) + 8460) * taxRate;
+        tax = ((taxableIncome - 40000) * taxRate) + 8460;
     }
     return tax;
 }
