@@ -28,6 +28,7 @@ int main(int argc, const char * argv[]) {
     Hoagie hg[2] = {h1, h2};
     getInfoSW(sw);
     getInfoHG(hg);
+    cout << "Total Price: $" << fixed << setprecision(2) << s1.calculatePrice() + s2.calculatePrice() + h1.calculatePrice() + h2.calculatePrice() << endl;
     return 0;
 
     
