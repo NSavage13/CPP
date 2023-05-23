@@ -29,10 +29,6 @@ int main(int argc, const char * argv[]) {
     getInfoSW(sw);
     getInfoHG(hg);
     return 0;
-
-    
-    
-    
 }
 
 void getInfoSW(Sandwhich array[]) {

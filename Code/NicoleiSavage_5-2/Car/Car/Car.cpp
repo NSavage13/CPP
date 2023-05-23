@@ -16,7 +16,7 @@ using namespace std;
 Car::Car(){
     make = "";
     model = "";
-    year = 0;
+    year = 10;
     miles = 0;
     gallons = 0;
     mpg = 0;
@@ -27,31 +27,33 @@ Car::Car(string make,string model,int year,double miles,double gallons,double mp
     this->year = year;
     this->miles = miles;
     this->gallons = gallons;
+    this->mpg = mpg;
+
 };
 
-string Car::getMake() const{
+string Car::getMake()  {
     return make;
 }
-string Car::getModel() const{
+string Car::getModel()  {
     return model;
 }
-int Car::getYear() const{
+int Car::getYear()  {
     return year;
 }
-double Car::getMiles() const{
+double Car::getMiles()  {
     return miles;
 }
-double Car::getGallons() const{
+double Car::getGallons()  {
     return gallons;
 }
-double Car::getMpg() const{
+double Car::getMpg()  {
     return mpg;
 }
 
-double Car::getDistance() const{
+double Car::getDistance()  {
     return mpg * gallons;
 }
-double Car::getCost() const{
+double Car::getCost()  {
     return 3.09 / (mpg*gallons);
 }
 
@@ -79,7 +81,85 @@ void Car::setMpg(double mpg) {
     this->mpg = mpg;
 }
 
-string Car::to_string() const {
-    return make + " " + model + " " + std::__1::to_string(year) + "\n";
+string Car::to_string()   {
+    stringstream ss;
+    ss << "Make: " << this->make;
+    ss  << "\nModel: " << this->model;
+    ss  << "\nYear: " << this->year;
+    ss  << "\nMiles: " << this->miles;
+    ss  << "\nGallons: " << this->gallons;
+    ss  << "\nMPG: " << this->mpg << endl;
+    
+    return ss.str();
 }
+ostream& operator<<(ostream& os, Car& car) {
+    os << car.to_string();
+    return os;
+}
+istream& operator>>(istream& is, Car& car){
+    cout << "Enter make: ";
+    is >> car.make;
+    cout << "Enter model: ";
+    is >> car.model;
+    cout << "Enter year: ";
+    is >> car.year;
+    cout << "Enter miles: ";
+    is >> car.miles;
+    cout << "Enter gallons: ";
+    is >> car.gallons;
+    cout << "Enter mpg: ";
+    is >> car.mpg;
+    return is;
+
+}
+bool Car::operator<(Car& c){
+    return this->getYear() < c.getYear();
+}
+bool Car::operator>(Car& c){
+    return this->getYear() > c.getYear();
+}
+bool Car::operator==(Car& c){
+    return this->getYear() == c.getYear();
+}
+bool Car::operator!=(Car& c){
+    return this->getYear() != c.getYear();
+}
+bool Car::operator<=(Car& c){
+    return this->getYear() <= c.getYear();
+}
+bool Car::operator>=(Car& c){
+    return this->getYear() >= c.getYear();
+}
+Car Car::operator+(Car& c){
+    Car result;
+    result.year = this->getYear() + c.getYear();
+    return result;
+}
+Car Car::operator-(Car& c){
+    Car result;
+    result.year = this->getYear() - c.getYear();
+    return result;
+}
+Car Car::operator*(Car& c){
+    Car result;
+    result.year = this->getYear() * c.getYear();
+    return result;
+}
+Car Car::operator/(Car& c){
+    Car result;
+    result.year = this->getYear() / c.getYear();
+    return result;
+}
+Car Car::operator++(){
+    this->year++;
+    return *this;
+}
+Car Car::operator++(int){
+    Car temp = *this;
+    this->year++;
+    return temp;
+}
+
+
+
 

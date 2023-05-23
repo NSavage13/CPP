@@ -11,6 +11,7 @@
 #include <iomanip>
 #include <cmath>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -21,14 +22,14 @@ public:
     
     Car(string make,string model,int year,double miles,double gallons,double mpg);
     
-    string getMake() const;
-    string getModel() const;
-    int getYear() const;
-    double getMiles() const;
-    double getGallons() const;
-    double getMpg() const;
-    double getDistance() const;
-    double getCost() const;
+    string getMake();
+    string getModel();
+    int getYear();
+    double getMiles();
+    double getGallons();
+    double getMpg();
+    double getDistance();
+    double getCost();
     
     void setMake(string make);
     void setModel(string model);
@@ -37,9 +38,27 @@ public:
     void setGallons(double gallons);
     void setMpg(double mpg);
     
-    string to_string() const;
+    string to_string();
     
-private:
+    friend ostream& operator<<(ostream& os, Car& car);
+    friend istream& operator>>(istream& is, Car& car);
+    
+    bool operator<(Car& c);
+    bool operator>(Car& c);
+    bool operator==(Car& c);
+    bool operator!=(Car& c);
+    bool operator<=(Car& c);
+    bool operator>=(Car& c);
+    
+    Car operator+(Car& c);
+    Car operator-(Car& c);
+    Car operator*(Car& c);
+    Car operator/(Car& c);
+    Car operator++();
+    Car operator++(int);
+    
+    
+protected:
     string make,model;
     int year;
     double miles, gallons, mpg;

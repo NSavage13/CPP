@@ -1,0 +1,12 @@
+Point 1: (6.0, 28.0)
+Point 2: (1.0, 3.0)
+Slope: 5.0
+
+Point 1: (0.0, 0.0)
+Point 2: (0.0, 0.0)
+Slope: Undefined
+
+Point 1: (5.0, 7.0)
+Point 2: (1.0, 3.0)
+Point 3: (-2.0, -5.0)
+Area: 10.0

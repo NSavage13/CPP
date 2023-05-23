@@ -35,7 +35,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/nicosavage/Desktop/CPP/Code/Bonus/Bonus"
+      customWorkingDirectory = "/Users/nicosavage/Desktop/CPP/Code/NicoleiSavage-Bonus/Bonus"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"

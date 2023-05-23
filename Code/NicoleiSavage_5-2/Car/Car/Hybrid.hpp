@@ -31,5 +31,11 @@ public:
     void chargeBattery(double amount);
     string to_string();
     
+    bool operator==(Hybrid& h);
+    bool operator!=(Hybrid& h);
+    friend ostream& operator<<(ostream& os, Hybrid& h);
+    friend istream& operator>>(istream& is, Hybrid& h);
+
+    
 };
 #endif /* Hybrid_hpp */

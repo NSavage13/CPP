@@ -7,11 +7,11 @@
 using namespace std;
 int readFile(string f);
 int threeAve();
-vector<int> temps;
-vector<int> threeWeekAve;
+vector<double> temps;
+vector<double> threeWeekAve;
 vector<string> line;
-vector<int> sqError;
-int month[7][5];
+vector<double> sqError;
+int month[8][5];
 
 int values();
 int main(){
@@ -43,7 +43,7 @@ int threeAve(){
         threeWeekAve.push_back(0);
         sqError.push_back(0);
     }
-    for(i=0;i<8;i++){
+    for(i=0;i<size(month);i++){
         sum=0;
         for(j=i;j<i+3;j++){
             sum+=temps[j];
@@ -51,7 +51,7 @@ int threeAve(){
         average=sum/3;
         threeWeekAve.push_back(average);
     }
-    for(k=0;k<8;k++){
+    for(k=0;k<size(month);k++){
         error = temps[k]-threeWeekAve[k];
         squaredError=pow(error,2);
         sqError[k] = squaredError;
@@ -65,7 +65,7 @@ int threeAve(){
             
         }
         
-        if(k==7){
+        if(k==size(month)-1){
             error = 0;
             sqError[k] = (sqError[3] + sqError[4] + sqError[5] + sqError[6]) / 4;
             cout << setw(10) << k+1 << setw(10) << temps[k]<< setw(20) << threeWeekAve[k]  << setw(10) << error << setw(20)<< sqError[k]<<endl;

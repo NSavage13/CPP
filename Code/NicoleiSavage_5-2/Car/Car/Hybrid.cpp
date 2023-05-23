@@ -57,5 +57,42 @@ string Hybrid::to_string() {
     return ss.str();
 }
 
+ostream& operator<<(ostream& os, Hybrid& h){
+    os << h.to_string();
+    return os;
+}
+istream& operator>>(istream& is, Hybrid& h){
+    
+    cout << "Enter make: ";
+    getline(is,h.make);
+    cout << "Enter model: ";
+    is.ignore();
+    getline(is,h.model);
+    cout << "Enter year: ";
+    is >> h.year;
+    cout << "Enter miles: ";
+    is >> h.miles;
+    cout << "Enter gallons: ";
+    is >> h.gallons;
+    cout << "Enter mpg: ";
+    is >> h.mpg;
+    cout << "Enter battery capacity: ";
+    is >> h.batteryCapacity;
+    cout << "Enter battery charge percent: ";
+    is >> h.batteryChargePercent;
+    
+    return is;
+}
+bool Hybrid::operator==(Hybrid& h){
+    return this->getBatteryChargePercent() == h.getBatteryChargePercent();
+
+}
+bool Hybrid::operator!=(Hybrid& h){
+    return this->getBatteryChargePercent() != h.getBatteryChargePercent();
+}
+
+
+
+
 
 

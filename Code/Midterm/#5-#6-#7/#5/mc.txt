@@ -1,0 +1,10 @@
+Name: Location 2
+Latitude: -56.345
+Longitude: 87.321
+
+
+Name: Location 1
+Latitude: 39.735
+Longitude: 42.131
+
+
