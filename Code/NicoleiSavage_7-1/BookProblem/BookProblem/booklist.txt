@@ -1,0 +1,400 @@
+67
+Alastair Reynolds
+Revelation Space [S1]
+2001
+18
+Aldous Huxley
+Brave New World
+1932
+66
+Alfred Bester
+The Demolished Man
+1953
+30
+Alfred Bester
+The Stars My Destination
+1956
+45
+Anthony Burgess
+A Clockwork Orange
+1962
+89
+Arkady & Boris Strugatsky
+Roadside Picnic
+1972
+19
+Arthur C Clarke
+Childhood's End
+1954
+65
+Arthur C Clarke
+The City and the Stars
+1956
+8
+Arthur C Clarke
+2001: A Space Odyssey
+1968
+14
+Arthur C Clarke
+Rendezvous With Rama
+1973
+100
+Arthur Conan Doyle
+The Lost World
+1912
+76
+C S Lewis
+Out of the Silent Planet [S1]
+1938
+40
+Carl Sagan
+Contact
+1985
+94
+Clifford Simak
+[C] City
+1952
+84
+Clifford Simak
+Way Station
+1963
+73
+Connie Willis
+Doomsday Book
+1992
+74
+Cormac McCarthy
+The Road
+2006
+15
+Dan Simmons
+Hyperion [S1]
+1989
+79
+Dan Simmons
+Ilium
+2003
+52
+Daniel Keyes
+Flowers for Algernon
+1966
+61
+David Brin
+Startide Rising [S2]
+1983
+98
+David Brin
+The Postman
+1985
+4
+Douglas Adams
+Hitch Hiker's Guide to the Galaxy [S1]
+1979
+72
+Edgar Rice Burroughs
+A Princess of Mars [S1]
+1912
+85
+Edwin A Abbott
+Flatland
+1884
+1
+Frank Herbert
+Dune [S1]
+1965
+33
+Frederik Pohl
+Gateway
+1977
+77
+Gene Wolfe
+The Fifth Head of Cerberus
+1972
+6
+George Orwell
+1984
+1949
+64
+Greg Bear
+Eon [S1]
+1985
+17
+H G Wells
+The Time Machine
+1895
+21
+H G Wells
+The War of the Worlds
+1898
+70
+Harry Harrison
+The Stainless Steel Rat [S1]
+1961
+71
+Iain M Banks
+Player of Games [S2]
+1988
+63
+Iain M Banks
+Use of Weapons [S3]
+1993
+11
+Isaac Asimov
+"[C] I, Robot"
+1955
+3
+Isaac Asimov
+The Foundation Trilogy
+1951
+32
+Isaac Asimov
+The Caves of Steel
+1954
+51
+Isaac Asimov
+The End of Eternity
+1955
+43
+Isaac Asimov
+The Gods Themselves
+1972
+16
+Joe Haldeman
+The Forever War
+1974
+90
+John Brunner
+Stand on Zanzibar
+1969
+59
+John Scalzi
+Old Man's War [S1]
+2005
+41
+John Wyndham
+The Day of the Triffids
+1951
+82
+John Wyndham
+The Chrysalids
+1955
+54
+Jules Verne
+Journey to the Center of the Earth
+1864
+36
+Jules Verne
+"20,000 Leagues Under the Sea"
+1873
+95
+Julian May
+The Many-Colored Land [S1]
+1981
+46
+Kim Stanley Robinson
+Red Mars [S1]
+1992
+62
+Kurt Vonnegut
+The Sirens of Titan
+1959
+39
+Kurt Vonnegut
+Cat's Cradle
+1963
+23
+Kurt Vonnegut
+Slaughterhouse Five
+1969
+53
+L Ron Hubbard
+Battlefield Earth
+1982
+13
+Larry Niven
+Ringworld [S1]
+1972
+44
+Madeleine L'Engle
+A Wrinkle In Time
+1962
+60
+Margaret Atwood
+The Handmaid's Tale
+1985
+49
+Mary Shelley
+Frankenstein
+1818
+37
+Michael Crichton
+The Andromeda Strain
+1969
+68
+Michael Crichton
+Sphere
+1987
+29
+Michael Crichton
+Jurassic Park
+1993
+25
+Neal Stephenson
+Snow Crash
+1992
+57
+Neal Stephenson
+The Diamond Age
+1995
+92
+Neal Stephenson
+Anathem
+2008
+26
+Niven & Pournelle
+The Mote in God's Eye
+1975
+83
+Niven & Pournelle
+Lucifer's Hammer
+1977
+2
+Orson Scott Card
+Ender's Game [S1]
+1985
+28
+Orson Scott Card
+Speaker for the Dead [S2]
+1986
+97
+Orson Scott Card
+Xenocide [S3]
+1991
+27
+Orson Scott Card
+Ender's Shadow [S1]
+1999
+56
+Peter F Hamilton
+The Reality Dysfunction [S1]
+1996
+99
+Peter F Hamilton
+Pandora's Star [S1]
+2004
+55
+Philip Jose Farmer
+To Your Scattered Bodies Go
+1971
+31
+Philip K Dick
+The Man in the High Castle
+1962
+78
+Philip K Dick
+The Three Stigmata of Palmer Eldritch
+1964
+9
+Philip K Dick
+Do Androids Dream of Electric Sheep?
+1968
+38
+Philip K Dick
+Ubik
+1969
+58
+Philip K Dick
+A Scanner Darkly
+1977
+96
+Philip K Dick
+VALIS
+1981
+7
+Ray Bradbury
+Fahrenheit 451
+1954
+22
+Ray Bradbury
+[C] The Martian Chronicles
+1954
+87
+Richard Matheson
+I Am Legend
+1954
+81
+Richard Morgan
+Altered Carbon [S1]
+2002
+69
+Robert A Heinlein
+The Door Into Summer
+1956
+75
+Robert A Heinlein
+Citizen of the Galaxy
+1957
+86
+Robert A Heinlein
+Have Space-Suit - Will Travel
+1958
+12
+Robert A Heinlein
+Starship Troopers
+1959
+5
+Robert A Heinlein
+Stranger in a Strange Land
+1961
+20
+Robert A Heinlein
+The Moon is a Harsh Mistress
+1966
+50
+Robert A Heinlein
+Time Enough For Love
+1973
+93
+Robert Louis Stevenson
+Strange Case of Dr Jekyll & Mr Hyde
+1886
+35
+Roger Zelazny
+Lord of Light
+1967
+34
+Stanislaw Lem
+Solaris
+1961
+91
+Stanislaw Lem
+[C] The Cyberiad
+1974
+80
+Suzanne Collins
+The Hunger Games
+2008
+24
+Ursula K Le Guin
+The Left Hand of Darkness
+1969
+88
+Ursula K Le Guin
+The Lathe of Heaven
+1971
+48
+Ursula K Le Guin
+The Dispossessed
+1974
+42
+Vernor Vinge
+A Fire Upon the Deep [S1]
+1991
+47
+Walter M Miller
+A Canticle for Leibowitz
+1959
+10
+William Gibson
+Neuromancer [S1]
+1984
