@@ -54,7 +54,7 @@ void shuffleDeck(vector<Card>& deck) {
     }
 
 }
-void printDeck( vector<Card>& deck) {
+void printDeck(vector<Card>& deck) {
     for ( Card& card : deck) {
         cout << card.getName() << " (ATT=" << card.getDamage() << " HP=" << card.getHealth() << ")" << endl;
     }

@@ -37,7 +37,6 @@ int main(int argc, const char * argv[]) {
     cout <<"~~Words in the memory~~\n";
     for(set<string>::iterator it = memory.begin(); it != memory.end(); ++it){
             cout << *it << ", ";
-        
     }
         cout << "\n~~Number of words entered: " << memory.size() << endl;
         
