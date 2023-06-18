@@ -31,21 +31,11 @@ public:
     string getDescription(){
         return description;
     }
-    friend bool operator<(const helpTicket &ticket1, const helpTicket &ticket2){
-        return ticket1.priority < ticket2.priority;
-    }
-    
-    friend bool operator>(const helpTicket &ticket1, const helpTicket &ticket2){
-        return ticket1.priority > ticket2.priority;
-    }
-    
-    friend bool operator>= (const helpTicket &ticket1, const helpTicket &ticket2){
-        return ticket1.priority >= ticket2.priority;
-    }
-    
-    friend bool operator<= (const helpTicket &ticket1, const helpTicket &ticket2){
-        return ticket1.priority <= ticket2.priority;
-    }
+    friend bool operator<(const helpTicket &ticket1, const helpTicket &ticket2);
+    friend bool operator>(const helpTicket &ticket1, const helpTicket &ticket2);
+    friend bool operator>= (const helpTicket &ticket1, const helpTicket &ticket2);
+
+    friend bool operator<= (const helpTicket &ticket1, const helpTicket &ticket2);
     
     friend bool operator== (const helpTicket &ticket1, const helpTicket &ticket2){
         return ticket1.priority == ticket2.priority;
