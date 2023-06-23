@@ -21,6 +21,8 @@
 
 using namespace std;
 
+
+
 class Elements {
 public:
     string name;
@@ -50,14 +52,6 @@ public:
           meltingPoint(meltingPoint), boilingPoint(boilingPoint),
           atomicRadius(atomicRadius){}
 
-    
-//    Element(const string& name,string& symbol, int atomicNumber, double atomicWeight, string& dens,
-//            double meltingPoint, double boilingPoint, double atomicRadius)
-//        : name(name),symbol(symbol), atomicNumber(atomicNumber),atomicWeight(atomicWeight), dens(dens),
-//          meltingPoint(meltingPoint), boilingPoint(boilingPoint),
-//          atomicRadius(atomicRadius){}
-
-    
     void displayInfo() const {
         const int setTheWidth = 20;
         cout << left;
@@ -79,59 +73,55 @@ public:
         cout << setw(setTheWidth) << atomicRadius << " | ";
         cout << endl;
     }
-};
-
-
-
-
-int main() {
-    Elements element("Hydrogen","H", 1, 1.008, "0.0708 (@ -253degC)" ,-259.1, -252.9, 37.0);
-    element.displayInfo();
     
-    map<string, Elements> elements;
-    ifstream fin;
-    string line = "";
-    fin.open("elementdata.txt");
-    if(fin.fail()){
-        cout << "student" << " did not open\n";
-        exit(1);
-    }
-    while (getline(fin, line)) {
-        stringstream ss(line);
-        string name;
-        string symbol;
-        int atomicNumber;
-        double atomicWeight;
-        string dens;
-        double meltingPoint;
-        double boilingPoint;
-        double atomicRadius;
-        string temp;
-        
-        if (ss >> name >> symbol >> atomicNumber >> atomicWeight >> dens >> meltingPoint){
+    void readFile(map<string, Elements> elements){
+        ifstream fin;
+        string line = "";
+        fin.open("elementdata.txt");
+        if(fin.fail()){
+            cout << "student" << " did not open\n";
+            exit(1);
+        }
+        while (getline(fin, line)) {
+            stringstream ss(line);
+            string name;
+            string symbol;
+            int atomicNumber;
+            double atomicWeight;
+            string dens;
+            double meltingPoint;
+            double boilingPoint;
+            double atomicRadius;
+            string temp;
             
-            if (meltingPoint < 0){
-                ss >> dens;
-                ss >> meltingPoint;
+            if (ss >> name >> symbol >> atomicNumber >> atomicWeight >> dens >> meltingPoint >> boilingPoint >> atomicRadius){
+                Elements element(name, symbol, atomicNumber, atomicWeight, dens, meltingPoint, boilingPoint, atomicRadius);
+                elements[symbol] = element;
             }
             
-            ss >> boilingPoint >> atomicRadius;
-            Elements element(name, symbol, atomicNumber, atomicWeight, dens, meltingPoint, boilingPoint, atomicRadius);
-            elements[symbol] = element;
         }
         cout << endl;
-        
         string inputSymbol;
         cout << "Enter an element symbol: ";
         cin >> inputSymbol;
-        
         auto it = elements.find(inputSymbol);
         if (it != elements.end()) {
+            //string symbol = it->first;
             const Elements& element = it->second;
             element.displayInfo();
         } else {
             cout << "Element not found." << endl;
         }
     }
+};
+
+
+
+
+int main() {
+    map<string, Elements> elements;
+    Elements element;
+    element.readFile(elements);
     
+    return 0;
 }

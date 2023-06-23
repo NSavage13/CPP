@@ -1,21 +1,21 @@
-Hydrogen H 1 1.00794  0.0708 (@ -253degC) 14.01 20.28 79
-Helium He 2 4.002602  0.147 (@ -270degC) 0.95 4.216 0
+Hydrogen H 1 1.00794 0.0708 14.01 20.28 79
+Helium He 2 4.002602 0.147 0.95 4.216 0
 Lithium Li 3 6.941 0.534 553.69 1118.15 155
 Beryllium Be 4 9.01218 1.848 1551 3243 112
 Boron B 5 10.811 2.34 2573 3931 98
-Carbon C 6 12.011  2.25 (graphite) 3820 5100 91
-Nitrogen N 7 14.00674  0.808 (@ -195.8degC) 63.29 77.4 92
-Oxygen O 8 15.9994  1.149 (@ -183degC) 54.8 90.19  -
-Fluorine F 9 18.998403  1.108 (@ -189degC) 53.53 85.01  -
-Neon Ne 10 20.1797  1.204 (@ -246degC) 48 27.1  -
+Carbon C 6 12.011 2.25 3820 5100 91
+Nitrogen N 7 14.00674 0.808 63.29 77.4 92
+Oxygen O 8 15.9994 1.149 54.8 90.19 0
+Fluorine F 9 18.998403 1.108 53.53 85.01 0
+Neon Ne 10 20.1797 1.204 48 27.1 0
 Sodium Na 11 22.989768 0.971 370.96 1156.1 190
 Magnesium Mg 12 24.305 1.738 922 1363 160
 Aluminum Al 13 26.981539 2.6989 933.5 2740 143
 Silicon Si 14 28.0855 2.33 1683 2628 132
-Phosphorus P 15 30.973762  1.82 (white phosphorus) 317.3 553 128
+Phosphorus P 15 30.973762 1.82 317.3 553 128
 Sulfur S 16 32.066 2.07 386 717.824 127
-Chlorine Cl 17 35.4527  1.56 (@ -33.6degC) 172.2 238.6  -
-Argon Ar 18 39.948  1.40 (@ -186degC) 83.8 87.3  -
+Chlorine Cl 17 35.4527 1.56 172.2 238.6 0
+Argon Ar 18 39.948 1.40 83.8 87.3 0
 Potassium K 19 39.0983 0.856 336.8 1047 235
 Calcium Ca 20 40.078 1.55 1112 1757 197
 Scandium Sc 21 44.95591 2.99 1814 3104 162
@@ -30,10 +30,10 @@ Copper Cu 29 63.546 8.96 1356.6 2840 128
 Zinc Zn 30 65.39 7.133 692.73 1180 138
 Gallium Ga 31 69.723 5.91 302.93 2676 141
 Germanium Ge 32 72.61 5.323 1210.6 3103 137
-Arsenic As 33 74.92159  5.73 (grey arsenic) 1090 876 139
+Arsenic As 33 74.92159 5.73 1090 876 139
 Selenium Se 34 78.96 4.79 490 958.1 140
-Bromine Br 35 79.904 3.12 265.9 331.9  -
-Krypton Kr 36 83.8  2.155 (@ -153degC) 116.6 120.85  -
+Bromine Br 35 79.904 3.12 265.9 331.9 0
+Krypton Kr 36 83.8 2.155 116.6 120.85 0
 Rubidium Rb 37 85.4678 1.532 312.2 961 248
 Strontium Sr 38 87.62 2.54 1042 1657 215
 Yttrium Y 39 88.90585 4.47 1795 3611 178
@@ -41,7 +41,7 @@ Zirconium Zr 40 91.224 6.506 2125 4650 160
 Niobium Nb 41 92.90638 8.57 2741 5015 146
 Molybdenum Mo 42 95.94 10.22 2890 4885 139
 Technetium Tc 43 97.9072 11.5 2445 5150 136
-Ruthenium  u 44 101.07 12.41 2583 4173 134
+Ruthenium Ru 44 101.07 12.41 2583 4173 134
 Rhodium Rh 45 102.9055 12.41 2239 4000 134
 Palladium Pd 46 106.42 12.02 1825 3413 137
 Silver Ag 47 107.8682 10.5 1235.1 2485 144
@@ -50,15 +50,15 @@ Indium In 49 114.818 7.31 429.32 2353 166
 Tin Sn 50 118.71 7.31 505.1 2543 162
 Antimony Sb 51 121.76 6.691 903.9 1908 159
 Tellurium Te 52 127.6 6.24 722.7 1263 160
-Iodine I 53 126.90447 4.93 386.7 457.5  -
-Xenon Xe 54 131.29  3.52 (@ -109degC) 161.3 166.1  -
+Iodine I 53 126.90447 4.93 386.7 457.5 0
+Xenon Xe 54 131.29 3.52 161.3 166.1 0
 Cesium Cs 55 132.90543 1.873 301.6 951.6 267
 Barium Ba 56 137.327 3.5 1002 1910 222
-Lanthanum  a 57 138.9055 6.15 1194 3730 187
+Lanthanum La 57 138.9055 6.15 1194 3730 187
 Cerium Ce 58 140.115 6.757 1072 3699 181
 Praseodymium Pr 59 140.90765 6.773 1204 3785 182
 Neodymium Nd 60 144.24 7.007 1294 3341 182
-Promethium Pm 61 144.9127 7.2 1441 3000  -
+Promethium Pm 61 144.9127 7.2 1441 3000 0
 Samarium Sm 62 150.36 7.52 1350 2064 181
 Europium Eu 63 151.965 5.243 1095 1870 199
 Gadolinium Gd 64 157.25 7.9 1586 3539 179
@@ -77,42 +77,42 @@ Osmium Os 76 190.23 22.57 3327 5300 135
 Iridium Ir 77 192.22 22.42 2683 4403 136
 Platinum Pt 78 195.08 21.45 2045 4100 139
 Gold Au 79 196.96654 19.3 1337.58 3080 146
-Mercury Hg 80 200.59  13.546 (@ +20degC) 234.28 629.73 157
+Mercury Hg 80 200.59 13.546 234.28 629.73 157
 Thallium Tl 81 204.3833 11.85 576.6 1730 171
 Lead Pb 82 207.2 11.35 600.65 2013 175
 Bismuth Bi 83 208.98037 9.747 544.5 1883 170
 Polonium Po 84 208.9824 9.32 527 1235 176
-Astatine At 85 209.9871  - 575 610  -
-Radon Rn 86 222.0176  4.4 (@ -62degC) 202 211.4  -
-Francium Fr 87 223.0197  - 300 950  -
-Radium Ra 88 226.0254 <5.5> 973 1413  -
-Actinium Ac 89 227.0278  - 1320 3470 188
+Astatine At 85 209.9871 0 575 610 0
+Radon Rn 86 222.0176 4.4 202 211.4 0
+Francium Fr 87 223.0197 0 300 950 0
+Radium Ra 88 226.0254 5.5 973 1413 0
+Actinium Ac 89 227.0278 0 1320 3470 188
 Thorium Th 90 232.0381 11.78 2028 5060 180
 Protactinium Pa 91 231.03588 15.37 2113 4300 161
 Uranium U 92 238.0289 19.05 1405.5 4018 138
 Neptunium Np 93 237.048 20.25 913 4175 130
 Plutonium Pu 94 244.0642 19.84 914 3505 151
 Americium Am 95 243.0614 13.67 1267 2880 173
-Curium Cm 96 247.0703 13.51 1340  - 299
-Berkelium Bk 97 247.0703 13.25  -  - 297
-Californium Cf 98 251.0796 15.1 900  - 295
-Einsteinium Es 99 252.083  -  - 1130 292
-Fermium Fm 100 257.0951  - 1800  - 290
-Mendelevium Md 101 258.1  - 1100  - 287
-Nobelium No 102 259.1009  - 1100  - 285
-Lawrencium Lr 103 262.11  -  -  - 282
-Rutherfordium Rf 104  [261]  -  -  -  -
-Dubnium Db 105  [262]  -  -  -  -
-Seaborgium Sg 106  [266]  -  -  -  -
-Bohrium Bh 107  [264]  -  -  -  -
-Hassium Hs 108  [269]  -  -  -  -
-Meitnerium Mt 109  [268]  -  -  -  -
-Ununnilium Uun 110  [269]  -  -  -  -
-Unununium Uuu 111  [272]  -  -  -  -
-Ununbium Uub 112  [277]  -  -  -  -
-Ununtrium Uut 113  -  -  -  -  -
-Ununquadium Uuq 114  [289]  -  -  -  -
-Ununpentium Uup 115  -  -  -  -  -
-Ununhexium Uuh 116  -  -  -  -  -
-Ununseptium Uus 117  -  -  -  -  -
-Ununoctium  Uuo 118  -  -  -  -  -
+Curium Cm 96 247.0703 13.51 1340 0 299
+Berkelium Bk 97 247.0703 13.25 0 0 297
+Californium Cf 98 251.0796 15.1 900 0 295
+Einsteinium Es 99 252.083 0 0 1130 292
+Fermium Fm 100 257.0951 0 1800 0 290
+Mendelevium Md 101 258.1 0 1100 0 287
+Nobelium No 102 259.1009 0 1100 0 285
+Lawrencium Lr 103 262.11 0 0 0 282
+Rutherfordium Rf 104 261 0 0 0 0
+Dubnium Db 105 262 0 0 0 0
+Seaborgium Sg 106 266 0 0 0 0
+Bohrium Bh 107 264 0 0 0 0
+Hassium Hs 108 269 0 0 0 0
+Meitnerium Mt 109 268 0 0 0 0
+Damstadium Ds 110 281 34.8 0 0 132
+Reontgenium Rg 111 282 28.7 0 0 121
+Copernicium Cn 112 285 23.7 0 357 147
+Nihonium Nh 113 286 16 700 1430 170
+Flerovium Fl 114 289 14 0 210 175
+Moscovium Mc 115 290 13.5 670 1400 187
+Livermorium Lv 116 293 12.9 708.5 1085 183
+Tennessine Ts 117 294 7.2 723 883 138
+Oganesson Og 118 294 5 320 350 0
